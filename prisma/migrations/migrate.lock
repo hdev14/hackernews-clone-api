@@ -1,3 +1,4 @@
 # Prisma Migrate lockfile v1
 
 20201028140915-create-link-table
+20201028164426-create-user-table
