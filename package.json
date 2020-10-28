@@ -11,9 +11,11 @@
   "author": "hdev14",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^2.10.0",
     "graphql-yoga": "^1.18.3"
   },
   "devDependencies": {
+    "@prisma/cli": "^2.10.0",
     "eslint": "^7.12.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.1",
