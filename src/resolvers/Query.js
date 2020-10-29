@@ -10,8 +10,13 @@ const feed = async (_, args, context) => {
     where,
     skip: args.skip,
     take: args.take,
+    orderBy: args.orderBy,
   });
-  return links;
+
+  return {
+    links,
+    count: links.length,
+  };
 };
 
 const link = async (_, args, context) => context.prisma.link.findOne({
